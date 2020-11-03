@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+           
+           width:200px;
+           height:80px;        
+           display:flex; 
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.5s;
+            margin-bottom: 20px;
+        }
+        .btn1{
+            background:-webkit-linear-gradient(0deg,transparent 50%,#27e8a7 50%);       
+            background-size:400px 80px;
+            border:4px solid rgb(41, 223, 168);
+        }
+        .btn1:hover{
+            
+            background-position: 200px 0;
+           
+        }
+        .btn2{
+            border:4px solid tomato;
+            background: -webkit-linear-gradient(0deg,transparent 50%,tomato 50%);
+            background-size: 400px 80px;
+        }    
+        .btn2:hover{
+            background-position: -200px 0;
+        }
+        .btn3{
+            border:4px solid dodgerblue;
+            background:-webkit-linear-gradient(transparent 50%,dodgerblue 50%);
+            background-size:200px 160px;
+        }
+        .btn3:hover{
+            background-position:0 80px ;
+        }
+        .btn4{
+            border:4px solid gold;
+            background:-webkit-linear-gradient(transparent 50%,gold 50%);
+            background-size: 200px 160px;
+        }
+        .btn4:hover{
+            background-position:-0px -80px;
+        }
+        a{
+            font-size: 30px;
+            text-decoration: none;
+            color:black;
+        }
+        .btn1:hover a, .btn2:hover a, .btn3:hover a, .btn4:hover a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+ 
+  <div class="btn btn1"><a href="#">Button 1</a></div>
+  <div class="btn btn2"><a href="#">Button 2</a></div>
+  <div class="btn btn3"><a href="#">Button 3</a></div>
+  <div class="btn btn4"><a href="#">Button 4</a></div>
+</body>
+</html>
